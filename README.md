@@ -64,12 +64,12 @@ API_KEY=pega_tu_api_key
 #### Ejecutar archivo Main
 
 ```bash
-Ir al archivo Main y presionar Shift + F10
-o
-Click derecho en archivo Main y seleccionar Run 'Main.main()' 
+- Ir al archivo Main y presionar Shift + F10
+                        o
+- Click derecho en archivo Main y seleccionar Run 'Main.main()' 
 ```
-
-
+  
+- Luego usar las funciones ya mencionadas
 
 ## Autores ✒️
 
