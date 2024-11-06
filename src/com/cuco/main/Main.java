@@ -174,9 +174,9 @@ public class Main {
     private static void deleteHistoryJson() {
         try {
             Files.deleteIfExists(HISTORY_PATH);
-            System.out.println("El archivo de historial ha sido eliminado.");
+            System.out.println("El historial de conversiones ha sido eliminado.");
         } catch (IOException e) {
-            System.out.println("Error al eliminar el archivo de historial: " + e.getMessage());
+            System.out.println("Error al eliminar el historial de conversiones: " + e.getMessage());
         }
     }
 
@@ -195,10 +195,10 @@ public class Main {
                 }
                 System.out.println("========================");
             } else {
-                System.out.println("El archivo de códigos de monedas no existe.");
+                System.out.println("Los códigos de monedas no existe.");
             }
         } catch (IOException e) {
-            System.out.println("Error al leer el archivo de códigos de monedas: " + e.getMessage());
+            System.out.println("Error al leer los códigos de monedas: " + e.getMessage());
         }
     }
 }
