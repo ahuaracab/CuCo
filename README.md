@@ -53,7 +53,7 @@ Open -> busca la carpeta donde clonaste el repositorio -> selecciona CuCo
 #### Variable de entorno
 
 ```bash
-Duplicar el archivo config.properties.copy y renombrarlo como config.properties
+Duplicar el archivo config.example y renombrarlo como config.properties
 En el archivo config.properties colocar la API Key obtenida anteriormente
 ```
 con
