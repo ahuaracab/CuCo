@@ -21,7 +21,7 @@ public class ApiClient {
     public ApiClient() {
         try {
             Properties properties = new Properties();
-            properties.load(new FileInputStream("src/config.properties"));
+            properties.load(new FileInputStream("config.properties"));
             this.apiKey = properties.getProperty("API_KEY");
         } catch (IOException e) {
             throw new RuntimeException("Error al cargar el archivo de configuración", e);
